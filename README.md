@@ -7,7 +7,7 @@ the output of the `/seed` command (see [MC-132503](https://bugs.mojang.com/brows
 
 ## usage
 
-   - `/function seeder:store` -> arranges to have the seeder:seed's `StringSeed` filled with text including the seed
+   - on init, arranges to have the seeder:seed's `StringSeed` filled with text including the seed
    - afterwards, access via eg: `/tellraw @s [{"nbt":"StringSeed","storage":"seeder:seed","interpret":true}]`
 
 ## note
